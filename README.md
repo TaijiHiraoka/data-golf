@@ -16,11 +16,11 @@
 ## datasテーブル
 |Column    |Type   |Options    |
 |----------|-------|-----------|
-|Club      |strings|null: false|
-|Head_speed|integer|null: false|
+|club_num  |strings|null: false|
+|head_speed|integer|null: false|
 |distance  |integer|null: false|
-|Ball_speed|integer|null: false|
-|Meat_rate |integer|null: false|
+|ball_speed|integer|null: false|
+|meat_rate |integer|null: false|
 
 ### Assosiation
 - belongs_to :user
